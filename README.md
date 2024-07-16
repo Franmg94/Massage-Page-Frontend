@@ -1,53 +1,53 @@
-Friday: 
-The form can successfully create a post request to the server. 
-Next steps, finishing the styling of the page.
+# Body Treatments Berlin
 
-Well done! Keep it up :)
+Welcome to the repository for **Body Treatments Berlin**, a personal massage website where users can find information about various types of massages, prices, about the therapist, and contact details. This project is currently a work in progress.
 
-### NOTES FOR DEVELOPMENT
-[x] Create the React project
-[x] Install dependencies like axios and tailwind
-[X] Design booking form
-[X] Display existing appointments
-[x] Connect frontend and backend
-[x] Calendar and Booking System/ friendly UI
-[] Style the application
-[] Test and refine
+## Project Overview
 
-### BOOKING FORM / PAGE
-I was working on the Booking form. 
-[x] Post request working.
-[x] Fix client address input.
-[X] Fix the available days.
-[x] The calendar and the time selection should be better displayed.
+Body Treatments Berlin is designed to provide a seamless and user-friendly experience for clients looking to book massage treatments. The website features:
 
-[] Connect the available dates with the db (HARD) (+10h)
+- Detailed descriptions of different types of massages
+- Pricing information
+- Information about the therapist
+- Contact details
 
-### HOME PAGE
-[x]Hero
-[x]Treatment section
-[x]About section
-[x]Contact section
-[] Style the sections (5-7 hours)
+## Features in Development
 
+One of the key features under development is the booking form. This form will slide in from the side of the screen when the user clicks the "Reserve" button. It will guide users through the process of selecting a massage, choosing a location, picking a date and time, entering personal details, and confirming the booking.
 
+## Technologies Used
 
+This project leverages modern web development technologies to create a responsive and interactive user experience:
 
+- **Frontend**: React with TypeScript for building scalable and maintainable components.
+- **Styling**: Tailwind CSS for utility-first styling, ensuring a clean and responsive design.
+- **Backend**: Node.js and Express for handling server-side logic and APIs.
 
----------------
+## Development Approach
 
-### MVP
-[x] All sections with informations on the HomePage. 
-[x] Booking Form Post Request.
-[] Admin Page with a private Page where I can see the list of appointments with all the information. (3h)
+I'm using ChatGPT as an AI helper to consciously leverage this powerful tool in the development process. This assists in brainstorming ideas, debugging issues, and speeding up the implementation of complex features.
 
--Bonus
-[] Improve the Form component so the available dates read in the db with the already created appointments.(+10h)
+## Current Status
 
+- **Completed**:
+  - Basic project setup
+  - Information pages for massages, prices, about me, and contact
+  - Slide-in booking form that sends a post request to the server
 
+- **In Progress**:
+  - Enhancements to the booking form and date picker
+  - Creation of an admin page for viewing all bookings with login functionality
+  - Deploying the server side
 
+### Prerequisites
 
-### REFERENCES
-https://www.remedymassage.com/
+- Node.js and npm installed
+- Git installed
 
-https://colorlib.com/wp/massage-websites-design/
+### Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/body-treatments-berlin.git
+cd body-treatments-berlin
