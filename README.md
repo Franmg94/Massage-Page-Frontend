@@ -48,6 +48,44 @@ I'm using ChatGPT as an AI helper to consciously leverage this powerful tool in 
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/body-treatments-berlin.git
-cd body-treatments-berlin
+    ```bash
+    git clone https://github.com/your-username/body-treatments-berlin.git
+    cd body-treatments-berlin
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+### Dependencies
+
+This project uses the following dependencies:
+
+```json
+"dependencies": {
+  "@testing-library/jest-dom": "^5.17.0",
+  "@testing-library/react": "^13.4.0",
+  "@testing-library/user-event": "^13.5.0",
+  "@types/jest": "^27.5.2",
+  "@types/react-datepicker": "^6.2.0",
+  "axios": "^1.7.2",
+  "dayjs": "^1.11.11",
+  "dotenv": "^16.4.5",
+  "emailjs-com": "^3.2.0",
+  "react": "^18.3.1",
+  "react-calendar": "^5.0.0",
+  "react-datepicker": "^6.9.0",
+  "react-dom": "^18.3.1",
+  "react-icons": "^5.2.1",
+  "react-router-dom": "^6.23.1",
+  "react-scripts": "5.0.1",
+  "web-vitals": "^2.1.4"
+}
