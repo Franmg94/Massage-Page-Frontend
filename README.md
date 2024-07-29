@@ -2,6 +2,8 @@
 
 Welcome to the repository for **Body Treatments Berlin**, a personal massage website where users can find information about various types of massages, prices, about the therapist, and contact details. This project is currently a work in progress.
 
+![Alt text](./src/assets/images/readme-img-1.png)
+
 ## Project Overview
 
 Body Treatments Berlin is designed to provide a seamless and user-friendly experience for clients looking to book massage treatments. The website features:
@@ -10,6 +12,11 @@ Body Treatments Berlin is designed to provide a seamless and user-friendly exper
 - Pricing information
 - Information about the therapist
 - Contact details
+
+## Links
+- Front: https://github.com/Franmg94/Massage-Page-Frontend
+- Back: https://github.com/Franmg94/Massage-Page-Backend
+- Demo: https://body-treatments-berlin.netlify.app/
 
 ## Features in Development
 
